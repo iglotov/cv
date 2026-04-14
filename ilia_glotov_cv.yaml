@@ -37,13 +37,13 @@ cv:
       - label: Infrastructure as Code & Configuration Management
         details: Ansible, Saltstack, Terraform
       - label: CI/CD & Automation
-        details: GitLab CI/CD, Jenkins, Bash
+        details: GitLab CI/CD, Bash, ArgoCD, Jenkins
       - label: Observability & Monitoring
         details: Grafana, Prometheus, Alertmanager, VictoriaMetrics, VictoriaLogs, ELK stack, Zabbix, Datadog
       - label: Databases & Messaging
         details: PostgreSQL, MySQL, MariaDB, Clickhouse, MongoDB, Redis, Kafka
       - label: Security & Networking
-        details: Wazuh, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc),
+        details: Wazuh, Vault, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc),
           VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
       - label: Other Tools
         details: Rancher, HAProxy, MinIO, Harbor, PowerDNS, Apache Airflow (deployment & support)

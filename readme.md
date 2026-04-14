@@ -21,13 +21,13 @@ Proven ability to optimize infrastructure costs, improve monitoring quality, and
 
 **Infrastructure as Code & Configuration Management:** Ansible, Saltstack, Terraform
 
-**CI/CD & Automation:** GitLab CI/CD, Jenkins, Bash
+**CI/CD & Automation:** GitLab CI/CD, Bash, ArgoCD, Jenkins
 
 **Observability & Monitoring:** Grafana, Prometheus, Alertmanager, VictoriaMetrics, VictoriaLogs, ELK stack, Zabbix, Datadog
 
 **Databases & Messaging:** PostgreSQL, MySQL, MariaDB, Clickhouse, MongoDB, Redis, Kafka
 
-**Security & Networking:** Wazuh, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc), VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
+**Security & Networking:** Wazuh, Vault, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc), VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
 
 **Other Tools:** Rancher, HAProxy, MinIO, Harbor, PowerDNS, Apache Airflow (deployment & support)
 
