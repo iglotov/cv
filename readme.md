@@ -8,7 +8,7 @@
 
 
 # Summary
-Senior DevOps / SRE engineer with hands-on experience across the full infrastructure lifecycle — from small teams with full platform ownership to large-scale environments (~1500+ servers).
+Senior DevOps / Site Reliability Engineer with hands-on experience across the full infrastructure lifecycle — from small teams with full platform ownership to large-scale environments (~1500+ servers).
 
 Strong background in Infrastructure as Code, Kubernetes, and AWS, with focus on building scalable, reliable, and cost-efficient systems. Experienced in observability, incident response, and security practices, including contributions to ISO/IEC 27001:2022 compliance.
 
