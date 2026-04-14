@@ -15,7 +15,7 @@ Strong background in Infrastructure as Code, Kubernetes, and AWS, with focus on 
 Proven ability to optimize infrastructure costs, improve monitoring quality, and support high-load production systems in dynamic and restricted environments.
 
 # Skills
-**Cloud & Infrastructure:** AWS (EKS, EC2, S3, Route53, Load Balancers), Bare-metal infrastructure (multi-provider environments), Cloudflare, Proxmox, VMWare
+**Cloud & Infrastructure:** AWS (EKS, EC2, S3, Route53, Load Balancers), Cloudflare, Bare-metal infrastructure (multi-provider environments), Proxmox VE, VMWare vSphere/ESXi
 
 **Containerization & Orchestration:** Kubernetes (EKS, RKE, OpenShift, Talos), KEDA, Karpenter, Docker
 
@@ -29,7 +29,7 @@ Proven ability to optimize infrastructure costs, improve monitoring quality, and
 
 **Security & Networking:** Wazuh, Vault, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc), VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
 
-**Other Tools:** Rancher, HAProxy, MinIO, Harbor, PowerDNS, Apache Airflow (deployment & support)
+**Other Tools:** Nginx, HAProxy, MinIO, Harbor, PowerDNS, Rancher,  Apache Airflow (deployment & support)
 
 # Experience
 ## **[Notix Games](https://notix.games)**, DevOps Engineer -- remote

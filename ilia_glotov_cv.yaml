@@ -21,7 +21,7 @@ cv:
       url: https://cv.iglotov.com/ilia_glotov_cv.pdf
   sections:
     summary:
-      - Senior DevOps / SRE engineer with hands-on experience across the full infrastructure lifecycle —
+      - Senior DevOps / Site Reliability Engineer with hands-on experience across the full infrastructure lifecycle —
         from small teams with full platform ownership to large-scale environments (~1500+ servers).
       - Strong background in Infrastructure as Code, Kubernetes, and AWS, with focus on building scalable,
         reliable, and cost-efficient systems. Experienced in observability, incident response, and security
@@ -30,8 +30,8 @@ cv:
         production systems in dynamic and restricted environments.
     skills:
       - label: Cloud & Infrastructure
-        details: AWS (EKS, EC2, S3, Route53, Load Balancers), Bare-metal infrastructure (multi-provider
-          environments), Cloudflare, Proxmox, VMWare
+        details: AWS (EKS, EC2, S3, Route53, Load Balancers), Cloudflare, Bare-metal infrastructure (multi-provider
+          environments), Proxmox VE, VMWare vSphere/ESXi
       - label: Containerization & Orchestration
         details: Kubernetes (EKS, RKE, OpenShift, Talos), KEDA, Karpenter, Docker
       - label: Infrastructure as Code & Configuration Management
@@ -46,7 +46,7 @@ cv:
         details: Wazuh, Vault, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc),
           VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
       - label: Other Tools
-        details: Rancher, HAProxy, MinIO, Harbor, PowerDNS, Apache Airflow (deployment & support)
+        details: Nginx, HAProxy, MinIO, Harbor, PowerDNS, Rancher,  Apache Airflow (deployment & support)
     experience:
       - company: '[Notix Games](https://notix.games)'
         position: DevOps Engineer
