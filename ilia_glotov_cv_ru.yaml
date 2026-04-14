@@ -1,0 +1,161 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Илья Глотов
+  headline: Senior DevOps / SRE | Observability, Security, Scalability, Cost Optimization
+
+  location: Нови Сад, Сербия
+  email: job@iglotov.com
+  photo: me.jpg
+  # phone:
+  # website: https://iglotov.com/
+  social_networks:
+    - network: Telegram
+      username: iglotov
+    - network: LinkedIn
+      username: iglotov
+    - network: GitHub
+      username: iglotov
+  custom_connections:
+    - fontawesome_icon: file-pdf
+      placeholder: cv.iglotov.com/ilia_glotov_cv_ru.pdf
+      url: https://cv.iglotov.com/ilia_glotov_cv_ru.pdf
+  sections:
+    summary:
+      - Senior DevOps / Site Reliability Engineer с практическим опытом по всему жизненному циклу инфраструктуры -
+        от небольших команд с полной ответственностью за платформу до крупных сред (~1500+ серверов).
+      - Сильная экспертиза в Infrastructure as Code, Kubernetes и AWS с фокусом на построении масштабируемых,
+        надежных и экономически эффективных систем. Есть опыт в observability, управлении инцидентами и безопасностью,
+        включая участие в обеспечении соответствия ISO/IEC 27001:2022.
+      - Подтвержденный опыт оптимизации инфраструктурных затрат, повышения качества мониторинга и поддержки
+        высоконагруженных production-систем в динамичных и ограниченных средах.
+    skills:
+      - label: Облака и инфраструктура
+        details: AWS (EKS, EC2, S3, Route53, Load Balancers), bare-metal infrastructure (multi-provider
+          environments), Cloudflare, Proxmox VE, VMWare vSphere/ESXi
+      - label: Контейнеризация и оркестрация
+        details: Kubernetes (EKS, RKE, OpenShift, Talos), KEDA, Karpenter, Docker
+      - label: Infrastructure as Code и управление конфигурацией
+        details: Ansible, Saltstack, Terraform
+      - label: CI/CD и автоматизация
+        details: GitLab CI/CD, Bash, ArgoCD, Jenkins
+      - label: Observability и мониторинг
+        details: Grafana, Prometheus, Alertmanager, VictoriaMetrics, VictoriaLogs, ELK stack, Zabbix, Datadog
+      - label: Базы данных и брокеры сообщений
+        details: PostgreSQL, MySQL, MariaDB, Clickhouse, MongoDB, Redis, Kafka
+      - label: Безопасность и сети
+        details: Wazuh, Vault, network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc),
+          VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
+      - label: Другие инструменты
+        details: Nginx, HAProxy, MinIO, Harbor, PowerDNS, Rancher, Apache Airflow (deployment & support)
+    experience:
+      - company: '[Notix Games](https://notix.games)'
+        position: DevOps Engineer
+        start_date: 2024-12
+        end_date: 2026-01
+        location: удаленно
+        summary: Senior DevOps Engineer в небольшой команде, поддерживающей ~50 разработчиков в продуктовой
+          iGaming-компании. Фокусировался на observability, улучшении security и оптимизации затрат в
+          AWS-based Kubernetes инфраструктуре, включая подготовку к сертификации ISO/IEC 27001:2022.
+        highlights:
+          - Спроектировал и внедрил автоматическое масштабирование для AWS EKS (KEDA + Karpenter, spot instances), сократив
+            затраты dev-кластера примерно на 25%
+          - Применил load-based стратегию масштабирования в production с использованием custom metrics
+          - Разработал tooling для dynamic development environments, включая provisioning scripts и
+            database templating
+          - Построил HA observability platform (Grafana + VictoriaMetrics + VictoriaLogs, 3 AZs, multi-tenant),
+            заменив legacy Prometheus instance
+          - Внедрил Wazuh (~100 agents) и участвовал в обеспечении ISO/IEC 27001:2022 compliance
+          - Существенно снизил alert noise за счет настройки monitoring и alerting systems
+          - Поддерживал incident response, участвовал в on-call rotations и в подготовке postmortems
+          - Поддерживал VPN-доступ в условиях network restrictions (multi-endpoint, failover)
+          - Развернул internal mail server для уведомлений с SPF/DKIM/DMARC и Vault-based credentials
+          - Управлял AWS infrastructure с помощью Terraform и Ansible (EKS, EC2, IAM, networking)
+          - Участвовал в англоязычных сессиях с certification authorities по вопросам game compliance
+            для выхода на новые рынки
+      - company: '[Sxipher](https://sxipher.ai)'
+        position: DevOps Engineer
+        start_date: 2024-04
+        end_date: 2024-12
+        location: удаленно
+        summary: DevOps Engineer в небольшой продуктовой компании (automated penetration testing platform),
+          тесно работал с разработчиками и security-специалистами. Фокусировался на Kubernetes operations,
+          environment reproducibility и secure infrastructure design в cloud-agnostic setup.
+        highlights:
+          - Построил IaC-based environments (Terraform, Ansible) для dev/QA/staging
+          - Мигрировал Kubernetes (RKE) clusters на OVH bare-metal, снизив vendor lock-in
+          - Внедрил monitoring (Prometheus, Grafana) и logging (ELK)
+          - Спроектировал secure network architecture (firewalls, VPN, isolation zones)
+          - Поддерживал per-customer deployments в Kubernetes
+          - Поддерживал GitLab CI pipelines для automated deployments
+          - Развернул Kafka (Strimzi) для messaging infrastructure
+          - Эксплуатировал bare-metal Kubernetes platform (Rancher, HAProxy, MinIO, PostgreSQL)
+      - company: '[Softswiss](https://softswiss.com)'
+        position: Systems Engineer (Platform Team)
+        start_date: 2022-03
+        end_date: 2023-12
+        location: Тбилиси, Грузия (гибридный формат)
+        summary: Systems Engineer в Infrastructure Operations team внутри крупной iGaming PaaS platform
+          (~1500+ bare-metal servers). Отвечал за полный lifecycle management выделенной инфраструктуры
+          с фокусом на reliability, incident response и automation в high-load production environment.
+        highlights:
+          - Эксплуатировал large-scale bare-metal infrastructure (~1500+ servers) у нескольких providers
+          - Управлял полным server lifecycle (provisioning → maintenance → decommissioning)
+          - Участвовал в on-call rotations, incident response и RCA
+          - Использовал Terraform (AWS, Cloudflare) и SaltStack (custom states/formulas)
+          - Автоматизировал задачи с помощью Bash/Python
+          - Поддерживал Kubernetes troubleshooting во время incidents
+          - Использовал monitoring systems (Zabbix, Datadog, ELK)
+          - Участвовал в GitLab CI automation
+          - Менторил инженеров и участвовал в hiring
+      - company: '[Vsemayki.RU](https://vsemayki.ru)'
+        position: DevOps Engineer
+        start_date: 2020-11
+        end_date: 2022-12
+        location: Новосибирск, Россия (удаленно)
+        summary: DevOps Engineer в небольшой команде с полной ответственностью за платформу ведущего
+          online merchandise shop. Фокусировался на надежности инфраструктуры, масштабировании и поддержке
+          continuous delivery в production environment.
+        highlights:
+            - Эксплуатировал production infrastructure и обеспечивал доступность сервисов
+            - Отвечал за scaling, cost optimization и backup strategies
+            - Внедрил monitoring (Prometheus, Grafana, ClickHouse)
+            - Поддерживал Kubernetes и Linux-based systems
+            - Автоматизировал deployments с помощью Ansible, Bash, GitLab CI/CD
+            - Решал infrastructure и application issues
+            - Администрировал MySQL, PostgreSQL, MongoDB
+      - company: '[Supl.biz](https://supl.biz)'
+        position: DevOps Engineer
+        start_date: 2019-11
+        end_date: 2020-08
+        location: Томск, Россия (офис)
+        summary: Поддерживал переход к microservices architecture, оптимизируя производительность и
+          масштабируемость собственного B2B marketplace.
+      - company: '[Банк России](https://cbr.ru)'
+        position: DevOps Engineer
+        start_date: 2018-12
+        end_date: 2019-11
+        location: Томск, Россия (офис)
+        summary: Фокусировался на разработке CI/CD pipelines, документировании инфраструктуры и изменений,
+          IaC и monitoring в staging и production environments.
+      - company: '[Томский Государственный Университет](https://tsu.ru)'
+        position: Systems Engineer
+        start_date: 2011-11
+        end_date: 2018-12
+        location: Томск, Россия (гибридный формат)
+        summary: Перестроил и модернизировал сетевую инфраструктуру факультета, внедрив современные
+          networking, security и virtualization technologies.
+    # projects:
+    #   - name: 'Homelab'
+    #     start_date: 2025-01
+    #     end_date: present
+    #     summary: I'll add it someday. 
+    #     highlights:
+    languages:
+      - label: Русский
+        details: Родной
+      - label: Английский
+        details: Профессиональное владение
+      - label: Сербский
+        details: Начальный уровень
+locale:
+  language: russian
