@@ -1,7 +1,8 @@
 # Ilia Glotov's CV
 
-- English: [ilia_glotov_cv.pdf](ilia_glotov_cv.pdf)
-- Russian: [ilia_glotov_cv_ru.pdf](ilia_glotov_cv_ru.pdf)
+- English: https://cv.iglotov.com/ilia_glotov_cv.pdf
+- Russian: https://cv.iglotov.com/ilia_glotov_cv_ru.pdf
+- Source repository: https://github.com/iglotov/cv/
 
 This repository contains my professional resume built with [RenderCV](https://rendercv.com/) and maintained as code.
 
@@ -29,4 +30,5 @@ The project is used to generate up-to-date CV versions tailored for DevOps / SRE
 Use RenderCV to generate the latest resume output from source configuration. I packaged it into a Makefile using RenderCV docker image.
 
 ```bash
+
 make
