@@ -4,10 +4,10 @@ cv:
   headline: Senior DevOps / SRE | Observability, Security, Scalability, Cost Optimization
 
   location: Novi Sad, Serbia
-  email: job@iglotov.com
+  email: iglotov@gmail.com
   photo: me.jpg
   # phone:
-  # website: https://iglotov.com/
+  # website: https://iglotov.com
   social_networks:
     - network: Telegram
       username: iglotov
@@ -17,11 +17,11 @@ cv:
       username: iglotov
   custom_connections:
     - fontawesome_icon: file-pdf
-      placeholder: cv.iglotov.com/ilia_glotov_cv.pdf
+      placeholder: **Recent CV**
       url: https://cv.iglotov.com/ilia_glotov_cv.pdf
   sections:
     summary:
-      - Senior DevOps / Site Reliability Engineer with hands-on experience across the full infrastructure lifecycle —
+      - DevOps / Site Reliability Engineer with hands-on experience across the full infrastructure lifecycle —
         from small teams with full platform ownership to large-scale environments (~1500+ servers).
       - Strong background in Infrastructure as Code, Kubernetes, and AWS, with focus on building scalable,
         reliable, and cost-efficient systems. Experienced in observability, incident response, and security

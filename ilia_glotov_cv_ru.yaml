@@ -4,10 +4,10 @@ cv:
   headline: Senior DevOps / SRE | Observability, Security, Scalability, Cost Optimization
 
   location: Нови Сад, Сербия
-  email: job@iglotov.com
+  email: iglotov@gmail.com
   photo: me.jpg
   # phone:
-  # website: https://iglotov.com/
+  # website: https://iglotov.com
   social_networks:
     - network: Telegram
       username: iglotov
@@ -17,7 +17,7 @@ cv:
       username: iglotov
   custom_connections:
     - fontawesome_icon: file-pdf
-      placeholder: cv.iglotov.com/ilia_glotov_cv_ru.pdf
+      placeholder: "**Актуальное резюме**"
       url: https://cv.iglotov.com/ilia_glotov_cv_ru.pdf
   sections:
     summary:

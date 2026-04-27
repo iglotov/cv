@@ -2,74 +2,28 @@
     theme: harvard
     page:
       size: a4
-    #   top_margin: 0.7in
-    #   bottom_margin: 0.7in
-    #   left_margin: 0.7in
-    #   right_margin: 0.7in
       show_footer: true
       show_top_note: true
-    # colors:
-    #   body: rgb(0, 0, 0)
-    #   name: rgb(0, 0, 0)
-    #   headline: rgb(0, 0, 0)
-    #   connections: rgb(0, 0, 0)
-    #   section_titles: rgb(0, 0, 0)
-    #   links: rgb(0, 0, 0)
-    #   footer: rgb(128, 128, 128)
-    #   top_note: rgb(128, 128, 128)
-    # typography:
-    #   line_spacing: 0.6em
-    #   alignment: justified
-    #   date_and_location_column_alignment: right
-    #   font_family:
-    #     body: XCharter
-    #     name: XCharter
-    #     headline: XCharter
-    #     connections: XCharter
-    #     section_titles: XCharter
-    #   font_size:
-    #     body: 10pt
-    #     name: 25pt
-    #     headline: 10pt
-    #     connections: 10pt
-    #     section_titles: 1.2em
-    #   small_caps:
-    #     name: false
-    #     headline: false
-    #     connections: false
-    #     section_titles: false
-    #   bold:
-    #     name: false
-    #     headline: false
-    #     connections: false
-    #     section_titles: true
+    typography:
+      alignment: justified
+      date_and_location_column_alignment: right
     links:
       underline: false
       show_external_link_icon: true
     header:
-    #   alignment: center
-    #   photo_width: 3.5cm
-    #   photo_position: left
-    #   photo_space_left: 0.4cm
-    #   photo_space_right: 0.4cm
-    #   space_below_name: 0.7cm
-    #   space_below_headline: 0.7cm
-    #   space_below_connections: 0.7cm
       connections:
         phone_number_format: international
         hyperlink: true
         show_icons: true
         display_urls_instead_of_usernames: true
-        separator: '|'
-    #     space_between_connections: 0.5cm
-    # section_titles:
-    #   type: with_full_line
-    #   line_thickness: 0.5pt
-    #   space_above: 0.5cm
-    #   space_below: 0.3cm
+        separator: ''
     sections:
       allow_page_break: true
-    #   space_between_regular_entries: 0.42cm
-    #   space_between_text_based_entries: 0.15cm
-      show_time_spans_in:
-        - experience
+#      show_time_spans_in:
+#        - experience
+    entries:
+      allow_page_break: true
+      short_second_row: false
+    templates:
+      footer: '*NAME -- Page PAGE_NUMBER of TOTAL_PAGES*'
+#      time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
