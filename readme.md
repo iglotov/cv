@@ -1,7 +1,7 @@
 # Ilia Glotov's CV
 
 - The CV itself: [https://cv.iglotov.com/Ilia_Glotov_SRE.pdf](https://cv.iglotov.com/Ilia_Glotov_SRE.pdf)
-- The CV in Russian translation: [https://cv.iglotov.com/Ilia_Glotov_SRE.pdf](https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf)
+- The CV in Russian translation: [https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf](https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf)
 - Source repository: [https://github.com/iglotov/cv/](https://github.com/iglotov/cv/)
 
 This repository contains my professional resume built with [RenderCV](https://rendercv.com/) and maintained as code.

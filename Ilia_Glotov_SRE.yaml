@@ -21,6 +21,9 @@ cv:
     - fontawesome_icon: file-pdf
       placeholder: "***Recent CV***"
       url: https://cv.iglotov.com/Ilia_Glotov_SRE.pdf
+    - fontawesome_icon: file-pdf
+      placeholder: "***CV in Russian***"
+      url: https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf
 
   sections:
     summary:

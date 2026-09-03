@@ -19,8 +19,11 @@ cv:
 
   custom_connections:
     - fontawesome_icon: file-pdf
-      placeholder: "***Актуальное резюме***"
+      placeholder: "***Актуальное CV***"
       url: https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf
+    - fontawesome_icon: file-pdf
+      placeholder: "***CV in English***"
+      url: https://cv.iglotov.com/Ilia_Glotov_SRE.pdf
 
   sections:
     summary:
