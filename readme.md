@@ -1,30 +1,57 @@
-# Ilia Glotov's CV
+<p align="center">
+  <img src="me.jpg" width="160" alt="Ilia Glotov">
+</p>
 
-- The CV itself: [https://cv.iglotov.com/Ilia_Glotov_SRE.pdf](https://cv.iglotov.com/Ilia_Glotov_SRE.pdf)
-- The CV in Russian translation: [https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf](https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf)
-- Source repository: [https://github.com/iglotov/cv/](https://github.com/iglotov/cv/)
+<p align="center">
+  <strong>Senior Site Reliability Engineer</strong><br>
+  AWS · Kubernetes · Terraform · Observability · Platform Reliability
+</p>
 
-This repository contains my professional resume built with [RenderCV](https://rendercv.com/) and maintained as code.
+<p align="center">
+  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE.pdf"><strong>CV in English</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf"><strong>Резюме на русском</strong></a>
+</p>
 
-The project is used to generate up-to-date CV versions tailored for DevOps / SRE / Infrastructure Engineering roles, with a focus on modern cloud platforms, Kubernetes, AWS, Infrastructure as Code, observability, and production reliability.
+<p align="center">
+  <a href="https://www.linkedin.com/in/iglotov/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/iglotov">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://t.me/iglotov">Telegram</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:iglotov+job@gmail.com">Email</a>
+</p>
 
-## Purpose
+---
 
-- Maintain resume content in version-controlled source files
-- Generate consistent PDF output with RenderCV
-- Keep career history, achievements, and skills structured and reusable
-- Easily adapt CV versions for different roles and markets
+I am a Senior Site Reliability / DevOps Engineer with 8+ years of experience building and operating infrastructure for high-load products in iGaming and information security. I focus on reliable cloud platforms, pragmatic automation, useful observability, and reducing the operational burden on development teams.
 
-## Main Focus Areas
+Based in **Novi Sad, Serbia**. Available for remote collaboration through a direct B2B contract or a payroll provider.
 
-- DevOps Engineering
-- Site Reliability Engineering (SRE)
-- Cloud Infrastructure (AWS)
-- Kubernetes Platforms
-- Infrastructure as Code (Terraform / Ansible)
-- CI/CD Automation
-- Observability & Reliability
+## Selected impact
 
-## Build
+- Reduced AWS development-cluster costs by approximately **25%** with KEDA/Karpenter autoscaling and spot instances on EKS.
+- Built a highly available, multi-tenant **VictoriaMetrics and Grafana** platform across three AWS availability zones.
+- Operated and automated a fleet of more than **1,500 bare-metal servers** supporting a high-load production platform.
+- Improved platform security with Wazuh and supplied technical evidence for **ISO/IEC 27001:2022** certification.
 
-Use RenderCV to generate the latest resume output from source configuration. I packaged it into a Makefile using RenderCV docker image. Just run `make` or peek into the `Makefile`.
+## Core expertise
+
+| Area | Technologies and practices |
+| --- | --- |
+| Cloud and platforms | AWS, EKS, EC2, Kubernetes, RKE, KEDA, Karpenter, Docker |
+| Infrastructure as Code | Terraform, Ansible, SaltStack |
+| Delivery and automation | GitLab CI/CD, Python, Bash, self-service environments |
+| Observability | VictoriaMetrics, Prometheus, Grafana, Alertmanager, ELK |
+| Reliability and security | Incident response, RCA, networking, Wazuh, infrastructure hardening |
+
+## This CV as code
+
+The English and Russian CVs are maintained as structured YAML and rendered to PDF with [RenderCV](https://rendercv.com/). The build is reproducible and runs in Docker:
+
+```shell
+make
+```
+
+Source files and build configuration are available in the [GitHub repository](https://github.com/iglotov/cv).
