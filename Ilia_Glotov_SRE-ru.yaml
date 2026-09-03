@@ -1,0 +1,133 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Илья Глотов
+  headline: "Senior Site Reliability Engineer (DevOps, AWS, Kubernetes)"
+
+  location: Нови-Сад, Сербия
+  email: job@iglotov.com
+  photo: me.jpg
+  website: https://iglotov.com
+#  phone:
+
+  social_networks:
+    - network: Telegram
+      username: iglotov
+    - network: LinkedIn
+      username: iglotov
+    - network: GitHub
+      username: iglotov
+
+  custom_connections:
+    - fontawesome_icon: file-pdf
+      placeholder: "***Актуальное резюме***"
+      url: https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf
+
+  sections:
+    summary:
+      - bullet: "8+ лет опыта в роли DevOps- и SRE-инженера в сферах высоконагруженного iGaming и информационной безопасности."
+      - bullet: "Экспертиза в управлении крупной инфраструктурой (1500+ bare-metal серверов) и облачными окружениями AWS (EKS, EC2)."
+      - bullet: "Подтверждённые результаты в оптимизации затрат (снижение dev-расходов на AWS на 25%), наблюдаемости (построил отказоустойчивую платформу на VictoriaMetrics) и безопасности (поддержка соответствия ISO 27001)."
+      - bullet: "Уверенно владею IaC (Terraform, Ansible), Kubernetes, CI/CD (GitLab CI) и реагированием на инциденты."
+    skills:
+      - AWS (EKS, EC2), Kubernetes, Terraform, Ansible, GitLab CI, Prometheus, Grafana, VictoriaMetrics, Bash, Docker, PostgreSQL, Kafka, SaltStack и многое другое.
+#      - label: Cloud & Infrastructure
+#        details: AWS (EKS, EC2, S3, Route53, Load Balancers), Cloudflare, Bare-metal infrastructure (multi-provider
+#          environments), Proxmox VE, VMWare vSphere/ESXi
+#      - label: Containerization & Orchestration
+#        details: Kubernetes (EKS, RKE, OpenShift, Talos), KEDA, Karpenter, Docker
+#      - label: Infrastructure as Code & Configuration Management
+#        details: Ansible, Saltstack, Terraform
+#      - label: CI/CD & Automation
+#        details: GitLab CI/CD, Bash, ArgoCD, Jenkins
+#      - label: Observability & Monitoring
+#        details: Grafana, Prometheus, Alertmanager, VictoriaMetrics, VictoriaLogs, ELK stack, Zabbix, Datadog
+#      - label: Databases & Messaging
+#        details: PostgreSQL, MySQL, MariaDB, Clickhouse, MongoDB, Redis, Kafka
+#      - label: Security & Networking
+#        details: Wazuh, Vault, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc),
+#          VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
+#      - label: Other Tools
+#        details: Nginx, HAProxy, MinIO, Harbor, PowerDNS, Rancher,  Apache Airflow (deployment & support)
+    experience:
+      - company: '[Notix Games](https://notix.games)'
+        position: DevOps-инженер
+        start_date: 2024-12
+        end_date: 2026-01
+        location: удалённо
+        summary: "Senior DevOps-инженер в небольшой команде, поддерживающей ~50 разработчиков в продуктовой iGaming-компании. Фокус на наблюдаемости, повышении безопасности и оптимизации затрат в Kubernetes-инфраструктуре на базе AWS, включая подготовку к сертификации ISO/IEC 27001:2022."
+        highlights:
+          - "Спроектировал и внедрил стратегию автомасштабирования AWS EKS на базе KEDA/Karpenter с использованием spot-инстансов, снизив затраты на dev-кластеры на ~25% и улучшив утилизацию ресурсов в production."
+          - "С нуля построил отказоустойчивую multi-tenant платформу наблюдаемости на VictoriaMetrics и Grafana в 3 зонах доступности AWS, заменив устаревший Prometheus и существенно снизив шум алертов."
+          - "Руководил инициативами по усилению безопасности: развернул Wazuh на ~100 агентов и подготовил техническое обоснование для сертификации ISO/IEC 27001:2022, напрямую обеспечив соответствие требованиям новых рынков."
+          - "Разработал инструменты для динамических self-service dev-окружений, автоматизировав шаблонирование и провижининг баз данных для ускорения онбординга разработчиков и циклов тестирования."
+          - "Спроектировал и поддерживал отказоустойчивое multi-endpoint VPN-решение с автоматическим failover, обеспечив стабильный и безопасный доступ для распределённой команды в условиях сетевых ограничений."
+      - company: '[Sxipher](https://sxipher.ai)'
+        position: DevOps-инженер
+        start_date: 2024-04
+        end_date: 2024-12
+        location: удалённо
+        summary: "DevOps-инженер в небольшой продуктовой компании (платформа автоматизированного пентеста), в тесной работе с разработчиками и специалистами по безопасности. Фокус на эксплуатации Kubernetes, воспроизводимости окружений и проектировании безопасной cloud-agnostic инфраструктуры."
+        highlights:
+          - "Спроектировал и автоматизировал воспроизводимые окружения (dev/QA/staging) на Terraform и Ansible, позволив разработчикам поднимать изолированные тестовые среды за минуты."
+          - "Руководил миграцией кластеров Kubernetes (RKE) от облачного провайдера на bare-metal OVH, снизив затраты на инфраструктуру и устранив vendor lock-in."
+          - "Создал первый в компании полноценный стек мониторинга и логирования (Prometheus, Grafana, ELK), обеспечив проактивное обнаружение проблем и сократив время устранения инцидентов."
+          - "Спроектировал и реализовал безопасную многозональную сетевую архитектуру со строгими правилами файрвола и сетевой изоляцией для поддержки возможностей пентест-платформы."
+      - company: '[Softswiss](https://softswiss.com)'
+        position: Системный инженер (Platform Team)
+        start_date: 2022-03
+        end_date: 2023-12
+        location: Тбилиси, Грузия (гибрид)
+        summary: "Системный инженер в команде Infrastructure Operations крупной iGaming PaaS-платформы (~1500+ bare-metal серверов). Отвечал за управление полным жизненным циклом выделенной инфраструктуры с фокусом на надёжности, реагировании на инциденты и автоматизации в высоконагруженном production-окружении."
+        highlights:
+          - "Управлял и автоматизировал крупную bare-metal инфраструктуру из более чем 1500 серверов в нескольких дата-центрах с фокусом на надёжности и производительности высоконагруженной iGaming-платформы."
+          - "Написал собственные SaltStack-формулы и Terraform-модули для автоматизации провижининга серверов и управления конфигурацией, сократив ручной труд и обеспечив консистентность всего парка."
+          - "Играл ключевую роль в реагировании на критические production-инциденты, включая диагностику Kubernetes и сети, участвуя в Root Cause Analysis (RCA), что повысило отказоустойчивость систем."
+          - "Разрабатывал скрипты на Python и Bash для автоматизации рутинных операционных задач, экономя команде часы ручной работы еженедельно."
+          - "Менторил двух junior-инженеров по лучшим практикам инфраструктуры и участвовал в найме, помогая развивать возможности команды платформы."
+      - company: '[Vsemayki.RU](https://vsemayki.ru)'
+        position: DevOps-инженер (частичная занятость)
+        start_date: 2022-03
+        end_date: 2022-12
+        location: Новосибирск, Россия (удалённо)
+      - company: '[Vsemayki.RU](https://vsemayki.ru)'
+        position: DevOps-инженер
+        start_date: 2020-11
+        end_date: 2022-03
+        location: Новосибирск, Россия (удалённо)
+        summary: "В составе небольшой команды с полным владением платформой внедрил стек мониторинга на базе Prometheus, который улучшил видимость производительности систем и помог проактивно масштабироваться под пиковые сезоны продаж."
+      - company: '[Supl.biz](https://supl.biz)'
+        position: DevOps-инженер
+        start_date: 2019-11
+        end_date: 2020-08
+        location: Томск, Россия (офис)
+        summary: "Поддерживал переход платформы на микросервисную архитектуру, создавая и сопровождая CI/CD-пайплайны, которые обеспечили более быстрые и надёжные деплои для команды разработки."
+      - company: '[Банк России](https://cbr.ru)'
+        position: DevOps-инженер
+        start_date: 2018-12
+        end_date: 2019-11
+        location: Томск, Россия (офис)
+        summary: "Фокус на разработке CI/CD-пайплайнов, документировании инфраструктуры и изменений, IaC и мониторинге в окружениях staging и production."
+      - company: '[Томский государственный университет](https://tsu.ru)'
+        position: Системный инженер
+        start_date: 2011-11
+        end_date: 2018-12
+        location: Томск, Россия (гибрид)
+        summary: "Руководил полной модернизацией сетевой инфраструктуры факультета, внедрив виртуализацию (VMware) и надёжные политики безопасности для более чем 500 пользователей и устройств."
+#    projects:
+#      - name: 'Homelab'
+#        start_date: 2025-01
+#        end_date: present
+#        summary: The new iteration of my own self-hosting environment and playground. To be described soon.
+#        highlights:
+#          - ...
+    languages:
+      - label: Русский
+        details: Родной
+      - label: Английский
+        details: Профессиональное владение
+      - label: Сербский
+        details: Начальный
+    other:
+      - "Имею разрешение на работу и проживание в Сербии на основании статуса индивидуального предпринимателя. Приемлемые формы сотрудничества: прямой B2B-контракт или договор через один из payroll-сервисов. Также принимаю оплату в криптовалюте."
+locale:
+  language: russian

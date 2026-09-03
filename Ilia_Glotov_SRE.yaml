@@ -1,0 +1,169 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Ilia Glotov
+  headline: Senior Site Reliability Engineer (DevOps, AWS, Kubernetes)
+
+  location: Novi Sad, Serbia
+  email: job@iglotov.com
+  photo: me.jpg
+  website: https://iglotov.com
+#  phone:
+
+  social_networks:
+    - network: Telegram
+      username: iglotov
+    - network: LinkedIn
+      username: iglotov
+    - network: GitHub
+      username: iglotov
+
+  custom_connections:
+    - fontawesome_icon: file-pdf
+      placeholder: "***Recent CV***"
+      url: https://cv.iglotov.com/Ilia_Glotov_SRE.pdf
+
+  sections:
+    summary:
+      - bullet: "8+ years of experience as a DevOps and Site Reliability Engineer in high-load iGaming and security
+        domains."
+      - bullet: "Expertise in managing large-scale infrastructure (1500+ bare-metal servers) and cloud-native AWS
+        environments (EKS, EC2)."
+      - bullet: "Proven impact in cost optimization (reduced AWS dev costs by 25%), observability (built HA VictoriaMetrics
+        platform), and security (supported ISO 27001 compliance)."
+      - bullet: "Skilled in IaC (Terraform, Ansible), Kubernetes, CI/CD (GitLab CI), and incident response."
+    skills:
+      - AWS (EKS, EC2), Kubernetes, Terraform, Ansible, GitLab CI, Prometheus, Grafana, VictoriaMetrics, Bash,
+        Docker, PostgreSQL, Kafka, SaltStack and many more.
+#      - label: Cloud & Infrastructure
+#        details: AWS (EKS, EC2, S3, Route53, Load Balancers), Cloudflare, Bare-metal infrastructure (multi-provider
+#          environments), Proxmox VE, VMWare vSphere/ESXi
+#      - label: Containerization & Orchestration
+#        details: Kubernetes (EKS, RKE, OpenShift, Talos), KEDA, Karpenter, Docker
+#      - label: Infrastructure as Code & Configuration Management
+#        details: Ansible, Saltstack, Terraform
+#      - label: CI/CD & Automation
+#        details: GitLab CI/CD, Bash, ArgoCD, Jenkins
+#      - label: Observability & Monitoring
+#        details: Grafana, Prometheus, Alertmanager, VictoriaMetrics, VictoriaLogs, ELK stack, Zabbix, Datadog
+#      - label: Databases & Messaging
+#        details: PostgreSQL, MySQL, MariaDB, Clickhouse, MongoDB, Redis, Kafka
+#      - label: Security & Networking
+#        details: Wazuh, Vault, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc),
+#          VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
+#      - label: Other Tools
+#        details: Nginx, HAProxy, MinIO, Harbor, PowerDNS, Rancher,  Apache Airflow (deployment & support)
+    experience:
+#      - company: '[Written](https://written.app)'
+#        position: DevOps Engineer
+#        start_date: 2026-05
+#        end_date:
+#        location: remote, b2b
+#        summary:
+#        highlights:
+      - company: '[Notix Games](https://notix.games)'
+        position: DevOps Engineer
+        start_date: 2024-12
+        end_date: 2026-01
+        location: remote, b2b
+        summary: Senior DevOps Engineer in a small team supporting ~50 developers in an iGaming product company.
+          Focused on observability, security improvements, and cost optimization in AWS-based Kubernetes
+          infrastructure, including preparation for ISO/IEC 27001:2022 certification.
+        highlights:
+          - Designed and implemented a KEDA/Karpenter-based autoscaling strategy for AWS EKS using spot instances,
+            cutting development cluster costs by ~25% and improving production resource utilization.
+          - Built a highly-available, multi-tenant observability platform from the ground up using VictoriaMetrics
+            and Grafana across 3 AWS AZs, replacing a legacy Prometheus setup and reducing alert noise significantly.
+          - Led security hardening initiatives by deploying Wazuh for ~100 agents and providing technical evidence
+            for ISO/IEC 27001:2022 certification, directly contributing to compliance for new markets.
+          - Developed tooling for dynamic, self-service development environments, automating database templating and
+            provisioning to accelerate developer onboarding and testing cycles.
+          - Engineered and maintained a resilient multi-endpoint VPN solution with automated failover, ensuring
+            stable and secure access for a distributed team working under network restrictions.
+      - company: '[Sxipher](https://sxipher.ai)'
+        position: DevOps Engineer
+        start_date: 2024-04
+        end_date: 2024-12
+        location: remote, b2b
+        summary: DevOps Engineer in a small product company (automated penetration testing platform), working
+          closely with developers and security specialists. Focused on Kubernetes operations, environment
+          reproducibility, and secure infrastructure design in a cloud-agnostic setup.
+        highlights:
+          - Architected and automated reproducible environments (dev/QA/staging) with Terraform and Ansible,
+            enabling developers to spin up isolated testing environments in minutes.
+          - Led the migration of Kubernetes (RKE) clusters from a cloud provider to OVH bare-metal, reducing
+            infrastructure costs and eliminating vendor lock-in.
+          - Established the company’s first comprehensive monitoring and logging stack (Prometheus, Grafana,
+            ELK), enabling proactive issue detection and reducing incident resolution time.
+          - Designed and implemented a secure, multi-zone network architecture with strict firewall rules and
+            network isolation to support the platform’s penetration testing capabilities.
+      - company: '[Softswiss](https://softswiss.com)'
+        position: Systems Engineer (Platform Team)
+        start_date: 2022-03
+        end_date: 2023-12
+        location: Tbilisi, Georgia (hybrid)
+        summary: Systems Engineer in Infrastructure Operations team within a large iGaming PaaS platform
+          (~1500+ bare-metal servers). Responsible for full lifecycle management of dedicated infrastructure,
+          focusing on reliability, incident response, and automation in a high-load production environment
+        highlights:
+          - Managed and automated a large-scale bare-metal infrastructure of over 1500 servers across multiple
+            data centers, focusing on reliability and performance for a high-load iGaming platform.
+          - Authored custom SaltStack formulas and Terraform modules to automate server provisioning and
+            configuration management, reducing manual effort and ensuring consistency across the fleet.
+          - Played a key role in incident response for critical production issues, including Kubernetes and
+            network troubleshooting, contributing to Root Cause Analysis (RCA) that improved system resilience.
+          - Developed Python and Bash scripts to automate routine operational tasks, saving the team hours of
+            manual work each week.
+          - Mentored two junior engineers on infrastructure best practices and participated in the hiring
+            process, helping to grow the platform team’s capabilities.
+      - company: '[Vsemayki.RU](https://vsemayki.ru)'
+        position: DevOps Engineer (part-time)
+        start_date: 2022-03
+        end_date: 2022-12
+        location: Novosibirsk, Russia (remote)
+      - company: '[Vsemayki.RU](https://vsemayki.ru)'
+        position: DevOps Engineer
+        start_date: 2020-11
+        end_date: 2022-03
+        location: Novosibirsk, Russia (remote)
+        summary: As part of a small team with full platform ownership, implemented a Prometheus-based
+          monitoring stack that improved visibility into system performance and helped proactively scale
+          for peak shopping seasons.
+      - company: '[Supl.biz](https://supl.biz)'
+        position: DevOps Engineer
+        start_date: 2019-11
+        end_date: 2020-08
+        location: Tomsk, Russia (on-site)
+        summary: Supported the platform’s transition to a microservices architecture by building and
+          maintaining CI/CD pipelines that enabled faster, more reliable deployments for development team.
+      - company: '[Bank of Russia](https://cbr.ru)'
+        position: DevOps Engineer
+        start_date: 2018-12
+        end_date: 2019-11
+        location: Tomsk, Russia (on-site)
+        summary: Focused on CI/CD pipelines development, documenting the infrastructure and changes, IaC, and
+          monitoring across staging and production environments.
+      - company: '[Tomsk State University](https://tsu.ru)'
+        position: Systems Engineer
+        start_date: 2011-11
+        end_date: 2018-12
+        location: Tomsk, Russia (hybrid)
+        summary: Led the complete modernization of the faculty’s network infrastructure, implementing
+          virtualization (VMWare) and robust security policies for over 500 users and devices.
+#    projects:
+#      - name: 'Homelab'
+#        start_date: 2025-01
+#        end_date: present
+#        summary: The new iteration of my own self-hosting environment and playground. To be described soon.
+#        highlights:
+#          - ...
+    languages:
+      - label: Russian
+        details: Native
+      - label: English
+        details: Professional Proficiency
+      - label: Serbian
+        details: Beginner
+    other:
+      - I have a work and residence permit in Serbia based on my sole proprietorship status. Acceptable forms of employment are direct B2B contract, or a contract with one of payroll services. I also accept cryptocurrency payments.
+locale:
+  language: english
