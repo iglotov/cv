@@ -56,18 +56,25 @@ cv:
 #      - label: Other Tools
 #        details: Nginx, HAProxy, MinIO, Harbor, PowerDNS, Rancher,  Apache Airflow (deployment & support)
     experience:
-#      - company: '[Written](https://written.app)'
-#        position: DevOps Engineer
-#        start_date: 2026-05
-#        end_date:
-#        location: remote, b2b
-#        summary:
-#        highlights:
+      - company: '[Written](https://written.app)'
+        position: DevOps Engineer
+        start_date: 2026-04
+        end_date: 2026-09
+        location: Remote, B2B
+        summary: DevOps Engineer at a startup developing a digital publishing and book sales platform. Supported
+          software delivery, improved service reliability, and modernized the infrastructure.
+        highlights:
+          - Optimized Docker images, reducing their size by 72% and accelerating builds through effective layer
+            caching.
+          - Designed and implemented deployments for new applications, as well as Redpanda and ClickHouse clusters
+            for analytics workloads.
+          - Identified and closed observability gaps by adding missing metrics and alerts for infrastructure
+            components.
       - company: '[Notix Games](https://notix.games)'
         position: DevOps Engineer
         start_date: 2024-12
         end_date: 2026-01
-        location: remote, b2b
+        location: Remote, B2B
         summary: Senior DevOps Engineer in a small team supporting ~50 developers in an iGaming product company.
           Focused on observability, security improvements, and cost optimization in AWS-based Kubernetes
           infrastructure, including preparation for ISO/IEC 27001:2022 certification.
@@ -86,7 +93,7 @@ cv:
         position: DevOps Engineer
         start_date: 2024-04
         end_date: 2024-12
-        location: remote, b2b
+        location: Remote, B2B
         summary: DevOps Engineer in a small product company (automated penetration testing platform), working
           closely with developers and security specialists. Focused on Kubernetes operations, environment
           reproducibility, and secure infrastructure design in a cloud-agnostic setup.
