@@ -47,8 +47,11 @@ jobs:
       - name: Verify site artifact
         run: |
           test -s _site/index.html
+          test -s _site/version.json
           test -s _site/Ilia_Glotov_SRE.pdf
           test -s _site/Ilia_Glotov_SRE-ru.pdf
+          grep -Fq "$GITHUB_SHA" _site/index.html
+          grep -Fq "$GITHUB_SHA" _site/version.json
           test -z "$(find _site -type l -print -quit)"
 
       - name: Upload GitHub Pages artifact
