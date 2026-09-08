@@ -48,10 +48,12 @@ Based in **Novi Sad, Serbia**. Available for remote collaboration through a dire
 
 ## This CV as code
 
-The English and Russian CVs are maintained as structured YAML and rendered to PDF with [RenderCV](https://rendercv.com/). The build is reproducible and runs in Docker:
+The English and Russian CVs are maintained as structured YAML and rendered to PDF with [RenderCV](https://rendercv.com/). The reproducible Docker build is available locally:
 
 ```shell
 make
 ```
+
+Every push to `main` renders both PDFs, builds this Jekyll site, and deploys it to GitHub Pages with GitHub Actions.
 
 Source files and build configuration are available in the [GitHub repository](https://github.com/iglotov/cv).
