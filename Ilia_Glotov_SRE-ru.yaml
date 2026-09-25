@@ -4,7 +4,7 @@ cv:
   headline: "Senior Site Reliability Engineer (DevOps, AWS, Kubernetes)"
 
   location: Нови-Сад, Сербия
-  email: iglotov@gmail.com
+  email: me@iglotov.com
   photo: me.jpg
   website: https://iglotov.com
 #  phone:
@@ -28,29 +28,29 @@ cv:
   sections:
     summary:
       - bullet: "8+ лет опыта в роли DevOps- и SRE-инженера в сферах высоконагруженного iGaming и информационной безопасности."
-      - bullet: "Экспертиза в управлении крупной инфраструктурой (1500+ bare-metal серверов) и облачными окружениями AWS (EKS, EC2)."
+      - bullet: "Опыт в управлении крупной инфраструктурой (1500+ bare-metal серверов) и облачными окружениями AWS (EKS, EC2)."
       - bullet: "Подтверждённые результаты в оптимизации затрат (снижение dev-расходов на AWS на 25%), наблюдаемости (построил отказоустойчивую платформу на VictoriaMetrics) и безопасности (поддержка соответствия ISO 27001)."
-      - bullet: "Уверенно владею IaC (Terraform, Ansible), Kubernetes, CI/CD (GitLab CI) и реагированием на инциденты."
+      - bullet: "Уверенно владею IaC (Terraform, Ansible), CI/CD (GitLab CI), Kubernetes и реагированием на инциденты."
     skills:
-      - AWS (EKS, EC2), Kubernetes, Terraform, Ansible, GitLab CI, Prometheus, Grafana, VictoriaMetrics, Bash, Docker, PostgreSQL, Kafka, SaltStack и многое другое.
-#      - label: Cloud & Infrastructure
-#        details: AWS (EKS, EC2, S3, Route53, Load Balancers), Cloudflare, Bare-metal infrastructure (multi-provider
-#          environments), Proxmox VE, VMWare vSphere/ESXi
-#      - label: Containerization & Orchestration
-#        details: Kubernetes (EKS, RKE, OpenShift, Talos), KEDA, Karpenter, Docker
-#      - label: Infrastructure as Code & Configuration Management
-#        details: Ansible, Saltstack, Terraform
-#      - label: CI/CD & Automation
-#        details: GitLab CI/CD, Bash, ArgoCD, Jenkins
-#      - label: Observability & Monitoring
-#        details: Grafana, Prometheus, Alertmanager, VictoriaMetrics, VictoriaLogs, ELK stack, Zabbix, Datadog
-#      - label: Databases & Messaging
-#        details: PostgreSQL, MySQL, MariaDB, Clickhouse, MongoDB, Redis, Kafka
-#      - label: Security & Networking
-#        details: Wazuh, Vault, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc),
-#          VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
-#      - label: Other Tools
-#        details: Nginx, HAProxy, MinIO, Harbor, PowerDNS, Rancher,  Apache Airflow (deployment & support)
+#      - AWS (EKS, EC2), Kubernetes, Terraform, Ansible, GitLab CI, Prometheus, Grafana, VictoriaMetrics, Bash, Docker, PostgreSQL, Kafka, SaltStack и многое другое.
+      - label: Cloud & Infrastructure
+        details: AWS (EKS, EC2, S3, Route53, Load Balancers), Cloudflare, Bare-metal infrastructure (multi-provider
+          environments), Proxmox VE, VMWare vSphere/ESXi, libvirt
+      - label: Containerization & Orchestration
+        details: Kubernetes (EKS, RKE, OpenShift, Talos), KEDA, Karpenter, Docker, LXC
+      - label: Infrastructure as Code & Configuration Management
+        details: Ansible, Saltstack, Terraform
+      - label: CI/CD & Automation
+        details: GitLab CI/CD, ArgoCD, Jenkins, Bash
+      - label: Observability & Monitoring
+        details: Grafana, Prometheus, Alertmanager, VictoriaMetrics, VictoriaLogs, ELK stack, Zabbix, Datadog
+      - label: Databases & Messaging
+        details: PostgreSQL, MySQL, MariaDB, Clickhouse, MongoDB, Redis, Kafka, Redpanda
+      - label: Security & Networking
+        details: Wazuh, Vault, Network isolation, firewalls, mail security (SPF/DKIM/DMARC, etc),
+          VPNs (OpenVPN, WireGuard, multi-endpoint setups, traffic routing under restrictions)
+      - label: Other Tools
+        details: Nginx, HAProxy, MinIO, Harbor, PowerDNS, Rancher,  Apache Airflow (deployment & support)
     experience:
       - company: '[Written](https://written.app)'
         position: DevOps-инженер
@@ -141,6 +141,6 @@ cv:
       - label: Сербский
         details: Начальный
     other:
-      - "Имею разрешение на работу и проживание в Сербии на основании статуса индивидуального предпринимателя. Приемлемые формы сотрудничества: прямой B2B-контракт или договор через один из payroll-сервисов. Также принимаю оплату в криптовалюте."
+      - "Имею разрешение на работу и проживание в Сербии на основании статуса индивидуального предпринимателя."
 locale:
   language: russian
