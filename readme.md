@@ -1,4 +1,12 @@
 <p align="center">
+  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE.pdf"><strong>CV in English</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf"><strong>Резюме на русском</strong></a>
+</p>
+
+<hr />
+
+<p align="center">
   <img src="me.jpg" width="160" alt="Ilia Glotov">
 </p>
 
@@ -8,19 +16,13 @@
 </p>
 
 <p align="center">
-  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE.pdf"><strong>CV in English</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf"><strong>Резюме на русском</strong></a>
-</p>
-
-<p align="center">
   <a href="https://www.linkedin.com/in/iglotov/">LinkedIn</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/iglotov">GitHub</a>
   &nbsp;·&nbsp;
   <a href="https://t.me/iglotov">Telegram</a>
   &nbsp;·&nbsp;
-  <a href="mailto:iglotov+job@gmail.com">Email</a>
+  <a href="mailto:me@iglotov.com">Email</a>
 </p>
 
 ---
@@ -40,10 +42,10 @@ Based in **Novi Sad, Serbia**. Available for remote collaboration through a dire
 
 | Area | Technologies and practices |
 | --- | --- |
-| Cloud and platforms | AWS, EKS, EC2, Kubernetes, RKE, KEDA, Karpenter, Docker |
-| Infrastructure as Code | Terraform, Ansible, SaltStack |
-| Delivery and automation | GitLab CI/CD, Python, Bash, self-service environments |
-| Observability | VictoriaMetrics, Prometheus, Grafana, Alertmanager, ELK |
+| Cloud and platforms | AWS, Kubernetes, KEDA, Karpenter, Docker |
+| Infrastructure as Code | Ansible, Terraform, SaltStack |
+| Delivery and automation | GitLab CI/CD, Bash, Python, self-service environments |
+| Observability | VictoriaMetrics, VictoriaLogs, Prometheus, Grafana, Alertmanager, ELK |
 | Reliability and security | Incident response, RCA, networking, Wazuh, infrastructure hardening |
 
 ## This CV as code
