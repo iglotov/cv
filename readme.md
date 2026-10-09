@@ -1,10 +1,3 @@
-<p align="center">
-  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE.pdf"><strong>CV in English</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf"><strong>Резюме на русском</strong></a>
-</p>
-
-<hr />
 
 <p align="center">
   <img src="me.jpg" width="160" alt="Ilia Glotov">
@@ -12,7 +5,13 @@
 
 <p align="center">
   <strong>Senior Site Reliability Engineer</strong><br>
-  AWS · Kubernetes · Terraform · Observability · Platform Reliability
+  AWS · Kubernetes · IaC · Observability · Platform Reliability
+</p>
+
+<p align="center">
+  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE.pdf"><strong>CV in English</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://cv.iglotov.com/Ilia_Glotov_SRE-ru.pdf"><strong>Резюме на русском</strong></a>
 </p>
 
 <p align="center">
